@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.vtiger.script.TestCreateCampaignTest">
+        <methods>
+          <include name="createCampaignWithProduct"/>
+          <include name="createCampaign"/>
+          <include name="createCampaignWithDescription"/>
+        </methods>
+      </class> <!-- com.vtiger.script.TestCreateCampaignTest -->
+      <class name="com.vtiger.script.TestCreateContactTest">
+        <methods>
+          <include name="createCampaignWithProduct"/>
+        </methods>
+      </class> <!-- com.vtiger.script.TestCreateContactTest -->
+      <class name="com.vtiger.script.TestCreateOrganizationTest">
+        <methods>
+          <include name="configBM"/>
+          <include name="createOrganization"/>
+          <include name="toCreateOrganizationWithMember"/>
+          <include name="configBC"/>
+          <include name="toCreateOrganizationWithPhoneNumber"/>
+        </methods>
+      </class> <!-- com.vtiger.script.TestCreateOrganizationTest -->
+      <class name="com.vtiger.organizationTest.TestCreateOrganizationTest">
+        <methods>
+          <include name="toCreateOrganizationWithPhoneNumber"/>
+          <include name="toCreateOrganizationWithMember"/>
+          <include name="createOrganization"/>
+        </methods>
+      </class> <!-- com.vtiger.organizationTest.TestCreateOrganizationTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

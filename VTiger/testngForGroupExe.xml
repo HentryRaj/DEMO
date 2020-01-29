@@ -1,0 +1,13 @@
+<suite name="Suite" >
+  <test name="Test" >
+    <groups>
+  	<run>
+  		<include name="SmokeTesting"></include>
+  	</run>
+  </groups>
+    <classes>
+      <class name="com.vtiger.script.TestCreateOrganizationTest"/>
+      <class name="com.vtiger.script.TestCreateCampaignTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

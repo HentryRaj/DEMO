@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="226316" started-at="2020-01-28T14:27:00Z" finished-at="2020-01-28T14:30:46Z">
+    <groups>
+      <group name="SmokeTesting">
+        <method signature="TestCreateOrganizationTest.createOrganization()[pri:0, instance:com.vtiger.script.TestCreateOrganizationTest@643b1d11]" name="createOrganization" class="com.vtiger.script.TestCreateOrganizationTest"/>
+      </group> <!-- SmokeTesting -->
+      <group name="RegressionTesting">
+        <method signature="TestCreateOrganizationTest.toCreateOrganizationWithMember()[pri:1, instance:com.vtiger.script.TestCreateOrganizationTest@643b1d11]" name="toCreateOrganizationWithMember" class="com.vtiger.script.TestCreateOrganizationTest"/>
+        <method signature="TestCreateOrganizationTest.toCreateOrganizationWithPhoneNumber()[pri:2, instance:com.vtiger.script.TestCreateOrganizationTest@643b1d11]" name="toCreateOrganizationWithPhoneNumber" class="com.vtiger.script.TestCreateOrganizationTest"/>
+      </group> <!-- RegressionTesting -->
+    </groups>
+    <test name="Default test" duration-ms="226316" started-at="2020-01-28T14:27:00Z" finished-at="2020-01-28T14:30:46Z">
+      <class name="com.vtiger.script.TestCreateOrganizationTest">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.vtiger.script.TestCreateOrganizationTest@643b1d11]" name="configBC" is-config="true" duration-ms="16691" started-at="2020-01-28T19:57:00Z" finished-at="2020-01-28T19:57:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.vtiger.script.TestCreateOrganizationTest@643b1d11]" name="configBM" is-config="true" duration-ms="70815" started-at="2020-01-28T19:57:17Z" finished-at="2020-01-28T19:58:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="createOrganization()[pri:0, instance:com.vtiger.script.TestCreateOrganizationTest@643b1d11]" name="createOrganization" duration-ms="77392" started-at="2020-01-28T19:58:27Z" finished-at="2020-01-28T19:59:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganization -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.vtiger.script.TestCreateOrganizationTest@643b1d11]" name="configAM" is-config="true" duration-ms="5553" started-at="2020-01-28T19:59:45Z" finished-at="2020-01-28T19:59:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.vtiger.script.TestCreateOrganizationTest@643b1d11]" name="configBM" is-config="true" duration-ms="4516" started-at="2020-01-28T19:59:50Z" finished-at="2020-01-28T19:59:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="toCreateOrganizationWithMember()[pri:1, instance:com.vtiger.script.TestCreateOrganizationTest@643b1d11]" name="toCreateOrganizationWithMember" duration-ms="24864" started-at="2020-01-28T19:59:55Z" finished-at="2020-01-28T20:00:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toCreateOrganizationWithMember -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.vtiger.script.TestCreateOrganizationTest@643b1d11]" name="configAM" is-config="true" duration-ms="2157" started-at="2020-01-28T20:00:20Z" finished-at="2020-01-28T20:00:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.vtiger.script.TestCreateOrganizationTest@643b1d11]" name="configBM" is-config="true" duration-ms="4387" started-at="2020-01-28T20:00:22Z" finished-at="2020-01-28T20:00:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="toCreateOrganizationWithPhoneNumber()[pri:2, instance:com.vtiger.script.TestCreateOrganizationTest@643b1d11]" name="toCreateOrganizationWithPhoneNumber" duration-ms="16945" started-at="2020-01-28T20:00:26Z" finished-at="2020-01-28T20:00:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toCreateOrganizationWithPhoneNumber -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.vtiger.script.TestCreateOrganizationTest@643b1d11]" name="configAM" is-config="true" duration-ms="2540" started-at="2020-01-28T20:00:43Z" finished-at="2020-01-28T20:00:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAT()[pri:0, instance:com.vtiger.script.TestCreateOrganizationTest@643b1d11]" name="configAT" is-config="true" duration-ms="317" started-at="2020-01-28T20:00:46Z" finished-at="2020-01-28T20:00:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAT -->
+      </class> <!-- com.vtiger.script.TestCreateOrganizationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
