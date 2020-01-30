@@ -11,9 +11,18 @@ public class VtigerCreateProductPage {
 	private WebElement productName;
 	@FindBy(xpath = "(//input[@accesskey='S'])[1]")
 	private WebElement saveProductBtn;
+	@FindBy(id ="qtyinstock")
+	private WebElement stockQty;
 	public VtigerCreateProductPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
+	}
+	public WebElement getSaveProductBtn() {
+		return saveProductBtn;
+	}
+	
+	public WebElement getStockQty() {
+		return stockQty;
 	}
 	public WebElement getProductName() {
 		return productName;
@@ -23,6 +32,12 @@ public class VtigerCreateProductPage {
 	}
 	public VtigerCreatedProductPage navigateToCreatedProductPage(String productName1) {
 		productName.sendKeys(productName1);
+		saveProductBtn.click();
+		return new VtigerCreatedProductPage(driver);
+	}
+	public VtigerCreatedProductPage navigateToCreatedProductPage(String productName1, String stock) {
+		productName.sendKeys(productName1);
+		stockQty.sendKeys(stock);
 		saveProductBtn.click();
 		return new VtigerCreatedProductPage(driver);
 	}

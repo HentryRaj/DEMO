@@ -1,4 +1,4 @@
-package com.vtiger.script;
+package com.vtiger.campaignTest;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;

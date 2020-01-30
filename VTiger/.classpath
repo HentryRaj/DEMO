@@ -11,5 +11,6 @@
 	<classpathentry kind="lib" path="jar/poi-ooxml-schemas-4.1.1.jar"/>
 	<classpathentry kind="lib" path="jar/selenium-server-standalone-3.141.59.jar"/>
 	<classpathentry kind="lib" path="jar/xmlbeans-3.1.0.jar"/>
+	<classpathentry kind="lib" path="jar/extentreports-2.41.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
